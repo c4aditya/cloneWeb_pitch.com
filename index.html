@@ -1,0 +1,1177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+
+  <section class="w-full bg-gradient-to-r from-[#5318eb] to-[#ab6ef9] py-3 px-5 fixed z-50 overflow-hidden 3xl:py-6 3xl:px-8">
+    <div class="flex justify-between items-center 3xl:gap-x-10">
+  
+      <!-- Logo -->
+      <div class="logo py-2 px-3 3xl:py-4 3xl:px-6">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 677 185" class="h-5 3xl:h-10">
+          <path fill="white" fill-rule="evenodd"
+            d="M163.585 78.34c-1.833 24.729-21.492 47.093-46.753 48.113V107.74c0-17.132-12.21-31.942-29.031-35.21L25.158 60.352v-42.26C25.158 6.724 35.534-1.834 46.694.34l64.432 12.52c35.653 7.76 54.721 35.09 52.474 65.48zM47.374 137.42l-37.071-7.199C4.967 129.188 0 133.267 0 138.707v25.66a13.377 13.377 0 0 0 10.82 13.126l37.071 7.199c5.336 1.034 10.303-3.06 10.303-8.485v-25.66a13.378 13.378 0 0 0-10.82-13.126zM84.83 86.425 28.292 75.443c-8.145-1.582-15.698 4.656-15.698 12.948v27.863c.133.03.28.044.413.074l37.072 7.199c12.904 2.512 22.276 13.864 22.276 27.02v5.824l14.353 2.793c8.144 1.582 15.697-4.656 15.697-12.948v-38.461c0-10.391-7.375-19.334-17.575-21.315z"
+            clip-rule="evenodd"></path>
+          <path id="text" fill="currentColor" class="text-white transition-transform duration-1000 group-hover:translate-x-[-100%]"
+            d="M238.438 24.729v147.546h24.595v-28.69h22.543c32.785 0 59.42-26.636 59.42-59.42 0-32.786-26.635-59.423-59.42-59.423v-.013zm331.99 0v147.546h24.595v-49.177c0-15.846 12.846-28.692 28.692-28.692 15.845 0 28.69 12.846 28.69 28.692v49.177H677V118.31c0-26.784-21.727-48.498-48.496-48.498h-.016c-12.978 0-24.73 5.055-33.465 13.392V24.73Zm-200.82.013c-7.544 0-13.659 6.115-13.659 13.658 0 7.543 6.115 13.659 13.658 13.659 7.543 0 13.659-6.116 13.659-13.659 0-7.543-6.116-13.658-13.659-13.658zm28.69 0v114.764c0 20.354 16.526 36.879 36.88 36.879 9.282 0 17.766-3.416 24.314-9.15l-11.885-20.221c-2.187 2.868-5.734 4.64-9.695 4.64v-.013h-2.734c-.813 0-1.64-.133-2.453-.266-5.602-1.094-9.83-6.15-9.83-12.018V98.516h24.595V73.92h-24.595V24.742ZM263.034 49.31h22.543c19.26 0 34.838 15.58 34.838 34.84 0 19.26-15.578 34.84-34.838 34.84h-22.543Zm250.012 20.517c-29.37 0-53.285 23.902-53.285 53.287 0 29.385 23.9 53.285 53.285 53.285 18.847 0 35.387-9.828 44.951-24.595l-21.447-12.297c-5.188 7.376-13.792 12.297-23.504 12.297-15.845 0-28.69-12.845-28.69-28.69 0-15.846 12.845-28.691 28.69-28.691v-.016c9.978 0 18.714 5.057 23.77 12.713l21.181-12.564c-9.43-14.885-25.957-24.729-44.951-24.729ZM357.309 73.92v98.37h24.597V73.92Z">
+          </path>
+        </svg>
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="hidden xl:flex ml-[5%] 3xl:ml-[7%]">
+        <nav>
+          <ul class="flex gap-x-8 text-white sm:text-[1.275rem] font-[300] 3xl:gap-x-12 3xl:text-[1.75rem]">
+            <li class="space-x-5"><a href="#" class="text-gray-300 hover:text-white">Product</a><i class="fa-solid fa-caret-down ml-2 text-sm"></i></li>
+            <li class="space-x-5"><a href="#" class="text-gray-300 hover:text-white">Use Cases</a><i class="fa-solid fa-caret-down ml-2 text-sm"></i></li>
+            <li class="space-x-5"><a href="#" class="text-gray-300 hover:text-white">Templates</a><i class="fa-solid fa-caret-down ml-2 text-sm"></i></li>
+            <li class="space-x-5"><a href="#" class="text-gray-300 hover:text-white">Resources</a><i class="fa-solid fa-caret-down ml-2 text-sm"></i></li>
+            <li class="space-x-5"><a href="#" class="text-gray-300 hover:text-white">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+  
+      <!-- Buttons & Mobile Menu -->
+      <div class="flex items-center gap-x-3 3xl:gap-x-8">
+        <button
+          class="border border-white text-white rounded-lg 3xl:px-8 3xl:py-3 sm:px-4 sm:py-2 xs:px-2 xs:py-1 xsss:block xs:hidden font-bold text-[1rem] 3xl:text-[1.8rem] ">
+          Log in
+        </button>
+        <button class="border border-white rounded-lg bg-white  3xl:px-8 3xl:py-3 sm:px-4 sm:py-2 xs:py-1 xs:px-3 xs:text-[14px] sm:font-bold  xsss:text-[1rem] 3xl:text-[1.8rem] ">
+          <span class="text-[#864BF9]">Sign up</span>
+        </button>
+        <!-- Hamburger Menu -->
+        <button id="hamburger" class="xl:hidden flex flex-col w-4 h-4 space-y-1">
+          <span class="block w-full h-0.5 bg-white"></span>
+          <span class="block w-full h-0.5 bg-white"></span>
+          <span class="block w-full h-0.5 bg-white"></span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- style="clip-path: circle(150vw at 50% calc(100% - 150vw - 10vw)); -->
+
+
+  <section class="overflow-x-hidden w-full bg-gradient-to-r from-[#5318eb] to-[#ab6ef9] flex relative " >
+
+    <!-- Center Content -->
+    <div class="flex flex-col items-center mx-auto space-y-10 md:pb-10">
+
+      <div class=" text-center  tracking-tighter md:w-[50%] lg:w-[40%] xs:w-[74%]  3xl:w-[36%]  xl:w-[46%]  sm:mt-[180px] xs:mt-[100px]">
+        <span class="font-extrabold text-white xs:text-3xl  md:text-5xl lg:text-5xl xl:text-6xl 3xl:text-[4.8rem]">
+          Win more deals.
+          Pitch.
+        </span>
+
+      </div>
+
+      <div  class="xl:w-[55%]    md:w-[80%]  w-[90%] text-center text-white sm:text-[1.375rem] 3xl:text-[2rem]  sm:leading-10 3xl:leading-[3rem]">
+        <p>
+          Pitch turns presentations into your team’s superpower for closing deals, winning clients, and expanding
+          accounts, all while staying on-brand.
+        </p>
+      </div>
+
+      <!-- Buttons Section -->
+      <div class="text-center mt-8 sm:pr-0 sm:pl-0 xs:pr-6 xs:pl-2">
+        <div class="sm:space-x-5 xs:space-x-3  mx-auto">
+          <button class="border-2 border-white rounded-lg bg-white xl:px-8 xl:py-3 sm:px-4 sm:py-2 xs:p-2 xs:text-[13px] 3xl:text-[2rem]">
+            <span class="bg-gradient-to-r from-[#8d49f7] to-[#6b53ff] bg-clip-text text-transparent md:font-bold ">Get
+              Started for free</span>
+          </button>
+          <button
+            class="border border-white-500 text-white rounded-lg xl:px-8 xl:py-3 sm:px-4 sm:py-2 xs:p-2 xs:text-[13px]   md:font-bold 3xl:text-[2rem]">Explore
+            Plans</button>
+        </div>
+      </div>
+
+      <!-- Right Circle Images -->
+      <div class="overflow-hidden opacity-50 xl:block hidden">
+        <div class="absolute right-36 bottom-80 animate-float-normal">
+          <img class="h-full " src="./img/circle.png" alt="right image part">
+        </div>
+        <div class="absolute right-[-12%] top-[-10rem] animate-float-normal">
+          <img class="w-[90%] " src="./img/right_circle.png" alt="right image part">
+        </div>
+      </div>
+
+
+      <!-- Bottom Navigation -->
+       <div class="">
+      <div class="flex flex-col items-center ">
+        <ul class="flex justify-center xl:gap-x-[5rem] sm:gap-x-[3rem]  text-[hsla(0,0%,100%,0.6)] mt-[2%]  text-[14px] font-bold tracking-[.1em] sm:text-center 3xl:text-[1.8rem] ">
+          <li>
+            <span class="flex gap-x-2 hover:border-b-[3px] hover:text-white sm:ml-[0rem] sm:mr[0rem] ">
+              <img src="./img/design_button.svg" alt="Design">
+              <span>DESIGN</span>
+            </span>
+          </li>
+          <li>
+            <span class="flex gap-x-2 hover:border-b-[3px] hover:text-white ">
+              <img class="xs:hidden sm:block " src="./img/collection.svg" alt="Collection">
+              <span class="xs:hidden sm:block ">COLLECTION</span>
+            </span>
+          </li>
+          <li>
+            <span class="flex gap-x-2 hover:border-b-[3px] hover:text-white ">
+              <img class="xs:hidden sm:block " src="./img/convert.svg" alt="Convert">
+              <span class="xs:hidden sm:block ">CONVERT</span>
+            </span>
+          </li>
+          <li>
+            <span class="flex gap-x-2 hover:border-b-[3px] hover:text-white ">
+              <img class="xs:hidden sm:block " src="./img/anlize.svg" alt="Analyse">
+              <span class="xs:hidden sm:block ">ANALYSE</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+        
+      </div>
+
+
+ 
+
+
+
+    </div>
+ 
+ 
+
+  </section>
+
+
+  <!-- videos and background section  -->
+  <section>
+
+
+    <div class="bg-[#f0eff4] 3xl:h-[70rem] xl:h-[50rem] lg:h-[40rem]  sm:h-[30rem] xs:h-[10rem] w-full relative">
+
+      <div  class="absolute bg-gradient-to-r from-[#5318eb] to-[#ab6ef9]  h-[80%] w-full 3xl:bottom-[225px] xl:bottom-[190px]" style="clip-path: circle(150vw at 50% calc(100% - 150vw - 10vw));">
+      </div>
+
+
+      <div class="absolute left-[-5%]  2xl:bottom-[100%] xl:bottom-[70%] opacity-35 animate-float-normal xl:block hidden">
+        <img class="w-[80%]" src="./img/cricle_1.png" alt="left image part">
+      </div>
+
+
+
+
+      <div class="absolute">
+        <div class=" mx-auto mt-5 pr-[7%] pl-[7%] 2xl:w-[90%] ">
+
+          <video src="https://d3x4b1wy4qlu9.cloudfront.net/videos/hero/hero-analyze.mp4" autoplay loop muted
+            class="rounded-xl  mx-auto">
+
+          </video>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<section>
+
+  <div class="flex flex-col text-center bg-[#f0eff4] text-[#2B2A35] overflow-hidden">
+    <div class="xs:mt-20 ms:mt-0 md:w-[100%] mx-auto xs:w-[90%]">
+    <h1 class="xl:text-[3rem] md:text-[2rem] text-[1rem] md:font-extrabold xs:font-bold ">Trusted by 2M+ teams worldwide</h1>
+    </div>
+   
+    <div class="overflow-hidden mt-[7%] w-[80%] mx-auto h-full">
+
+      <ul class="flex sm:space-x-16 gap-x-2 animate-marquee whitespace-nowrap ">
+        
+        <li class="inline-block  opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/synthesia.svg"
+            alt="giphy logo">
+        </li>
+        <li class="inline-block h-[80%] opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/koto.svg"
+            alt="giphy logo">
+        </li>
+        <li class="inline-block  opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/synthesia.svg"
+            alt="giphy logo">
+        </li>
+        <li class="inline-block opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/thrive.svg"
+            alt="giphy logo">
+        </li>
+
+        <li class="inline-block opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/synthesia.svg"
+            alt="giphy logo">
+        </li>
+
+        <li class="inline-block opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/dept_vlvpvs.svg"
+            alt="giphy logo">
+        </li>
+
+        <li class="inline-block opacity-80">
+          <img class="rounded-lg max-w-[12rem]"
+          src="./img/synthesia.svg"
+            alt="giphy logo">
+        </li>
+      
+        
+      
+      </ul>
+
+
+    </div>
+    </div>
+
+</section>
+  <!-- Templates Section -->
+  <div class="bg-[#f0eff4] text-center">
+    <div class="lg:leading-[3rem] sm:pt-[7rem] xs:pt-[5rem] xs:leading-9 xl:w-[50%] md:w-[70%] xs:w-[90%] mx-auto">
+      <span class="font-extrabold tracking-tight bg-gradient-to-r from-[#2f274b] to-[#4d1a8f]  bg-clip-text text-transparent xl:text-[3.5rem] md:text-[3rem] xs:text-[1.5rem]  ">
+        Get a head start with free templates
+      </span>
+         
+    </div>
+
+    <div class="text-center mx-auto mt-[2rem] sm:leading-10 leading-7 3xl:w-[36%] xl:w-[50%]  md:w-[60%] w-[90%] p-1">
+      <p class="text-[1.125rem] sm:text-[1rem] lg:text-[1.125rem] text-gray-600 3xl:text-[1.8rem]">Choose from 100+ fully customizable templates
+        crafted by subject matter experts and presentation design pros. Or upload your existing PPTX file</p>
+    </div>
+
+    <ul class="flex justify-center gap-x-10 sm:gap-x-4 lg:gap-x-8 mt-[2rem]">
+      <!-- Buttons or Links -->
+      <li class="gap-x-10 ">
+        <span class="flex gap-x-2 font-[700] sm:text-[1.125rem] xs:text-[1rem] text-[#8d49f7] "> Explore the template gallery<span><img
+              class="h-3 mt-2 text-[#8d49f7]" src="./img/arrow.svg" alt=""></span></span>
+      </li>
+    </ul>
+
+    <!-- Moving Cards Section -->
+    <div class="w-full mt-[5rem]">  
+      <!-- First Row of Images -->
+      <div class="flex overflow-x-hidden space-x-4">
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Image 1">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Image 2">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138343/website/homepage/templates/Creative_Brief.png"
+            alt="Image 3">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138368/website/homepage/templates/Startup_Pitch_Deck.png"
+            alt="Image 4">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138346/website/homepage/templates/Product_Launch.png"
+            alt="Image 5">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138340/website/homepage/templates/Board_Deck.png"
+            alt="Image 6">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Image 7">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Image 8">
+        </div>
+      </div>
+
+      <!-- Second Row of Images -->
+      <div class="flex overflow-x-hidden space-x-4 mt-[1rem]">
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138364/website/homepage/templates/Quarterly_Business_Review.png"
+            alt="Quarterly Business Review">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138346/website/homepage/templates/Mutual_Action_Plan.png"
+            alt="Mutual Action Plan">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138347/website/homepage/templates/Product_Launch-1.png"
+            alt="Product Launch">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138364/website/homepage/templates/Sales_Deck.png"
+            alt="Sales Deck">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138340/website/homepage/templates/Business_Proposal.png"
+            alt="Business Proposal">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138342/website/homepage/templates/Concept_Proposal.png"
+            alt="Concept Proposal">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Digital Agency Pitch">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138368/website/homepage/templates/Mutual_Action_Plan.png"
+            alt="Mutual Action Plan">
+        </div>
+      </div>
+
+
+      <div class="flex overflow-x-hidden space-x-4 mt-[1rem]">
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138364/website/homepage/templates/Quarterly_Business_Review.png"
+            alt="Quarterly Business Review">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138346/website/homepage/templates/Mutual_Action_Plan.png"
+            alt="Mutual Action Plan">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138347/website/homepage/templates/Product_Launch-1.png"
+            alt="Product Launch">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138364/website/homepage/templates/Sales_Deck.png"
+            alt="Sales Deck">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138340/website/homepage/templates/Business_Proposal.png"
+            alt="Business Proposal">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138342/website/homepage/templates/Concept_Proposal.png"
+            alt="Concept Proposal">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138344/website/homepage/templates/Digital_Agency_Pitch.png"
+            alt="Digital Agency Pitch">
+        </div>
+        <div class="flex-shrink-0 w-[15%]">
+          <img class="rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/v1717138368/website/homepage/templates/Mutual_Action_Plan.png"
+            alt="Mutual Action Plan">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+
+
+  <!--video card section -->
+
+
+
+  <section>
+
+    
+
+    <div class="flex items-center justify-center w-full   ">
+      <div class="relative bg-white  rounded-lg sm:p-8 ml-[5%] mr-[5%]  xl:top-[-100px]  sm:top-[-50px] xs:top-[-20px] ">
+
+        <div class="xl:w-[50%] sm:w-[90%]  xl:mx-[24.7%] xs:mx-[8.5%] lg:mx-[14.5%] flex items-center space-x-1 md:mt-0 xs:mt-5">
+
+          <div class=" bg-[#FFA000] flex items-center px-5 border-2 border-[#FFA000] space-x-1 rounded-t-md">
+          <h1 class="3xl:text-[2rem]">Jake</h1>
+          
+
+        
+          <div class="border-1 border-red-500 rounded-full bg-white" style="width: 8px; height: 8px;">
+          </div>
+          <div class="border-1 border-red-500 rounded-full bg-gray-300" style="width: 8px; height: 8px;">
+          </div>
+          <div class="border-1 border-red-500 rounded-full bg-white" style="width:  8px; height: 8px;">
+          </div>
+          </div>
+        </div>
+
+        <div class="mb-4 text-center xl:w-[50%] lg:w-[70%]  xs:w-[80%]  mx-auto">
+          <h1 class="sm:text-6xl text-[1.7rem]  font-bold text-gray-800 outline-dashed outline-2 outline-offset-2  outline-[#FFA000] md:pt-4 md:pb-4 md:pr-2 md:pl-2  xs:pr-0 xs-pl-0 text-center">
+            How Pitch works</h1>
+        </div>
+
+        <div class="mb-8 mt-8 text-center xl:w-[50%]  md:w-[80%] 3xl:w-[50%]  xs:w-[100%]   mx-auto ">
+          <p class="text-gray-600  leading-9 sm:text-[1.3rem] 3xl:text-[1.8rem]">
+            Pitch speeds up every part of presentation-making. Start with an AI draft, easily adapt slides and templates
+            to your brand, enjoy smart editing features, and collaborate seamlessly.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <button class="bg-purple-600 text-white font-bold py-3 xl:w-[20%]  lg:w-[28%] md:w-[40%] sm:w-[40%] xs:w-[80%]  rounded-lg hover:bg-purple-700 3xl:text-[2rem]">
+            Create a presentation 
+          </button>
+        </div>
+
+        <div class="sm:block hidden">
+          <span class="bg-[#FFA000] pt-2 pb-2 pl-4 pr-4 rounded-full absolute xl:right-[21%]  sm:right-0 lg:right-36 top-[20%] xl:w-[6%] text-md text-center animate-float-normal 3xl:text-[2rem]">Jake</span>
+          <span class="bg-[#81D4FA] pt-2 pb-2 pl-1 pr-1 text-md  rounded-full absolute   xl:w-[6%]  w-[10%] text-center bottom-[25%] xl:left-[20%] text-gray-800  animate-float-normal 3xl:text-[2rem]">Joy</span>
+          <span class="bg-[#FFD600]  pt-2 pb-2 pl-2 pr-2 rounded-full  text-md text-gray-800 xl:w-[7%] text-center absolute right-20 bottom-7 animate-float-normal 3xl:text-[2rem]">charlote</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- first video section -->
+
+    <div class="flex items-center justify-center ">
+
+      <div class="lg:flex lg:flex-row  xl:w-[80%] lg:w-[95%]   rounded-lg overflow-hidden">
+
+        <!-- Video Container -->
+        <div class="xl:w-[50%] lg:w-[50%] md:w-[100%]   p-8 relative">
+          <video class="w-full h-full object-cover rounded-2xl" autoplay muted loop>
+            <source src="https://d3x4b1wy4qlu9.cloudfront.net/media/homepage-png/start.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Content Container -->
+
+        <div class="xl:w-[50%] lg:w-[50%] xl:p-8  flex flex-col justify-center md:space-y-7 xs:space-y-4 xl:ml-[6%] md:ml-[2%] p-8  3xl:text-[2rem]">
+          <h2 class="text-purple-600 font-bold lg:text-[2rem] 3x:font-extrabold 3xl:text-[3rem] ">1 — Start</h2>
+          <h1 class="lg:text-4xl sm:text-[1.5rem]  font-extrabold text-gray-800 mt-2">Generate, discover, or build a template
+          </h1>
+          <div class="">
+            <ul class="flex flex-col justify-center font-[1rem] space-y-2 text-gray-600 ">
+              <li>
+                <span class="flex gap-x-5  items-center "><i class="fa-solid fa-check " style="color: #000000;"></i> <span> Jump-start your deck with AI.</span> </span>
+              </li>
+
+              <li>
+                <span class="flex gap-x-5  items-center"><i class="fa-solid fa-check" style="color: #000000;"></i> <span> Choose from
+                    100+ expert-made templates.</span> </span>
+              </li>
+
+              <li>
+                <span class="flex gap-x-5  items-center"><i class="fa-solid fa-check" style="color: #000000;"></i> <span> Use your
+                    brand colors and custom fonts.</span> </span>
+              </li>
+            </ul>
+          </div>
+          <a href="#"
+            class="text-[#864BF9] border border-blue-700     font-bold py-3 px-6 rounded-lg w-fit ">
+            Start exploring now
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- second video with the video is in right side  -->
+
+    <div class="flex items-center justify-center ">
+
+      <div class="flex lg:flex-row flex-col-reverse xl:w-[80%] lg:w-[90%]  rounded-lg overflow-hidden  ">
+        <!-- Left side (text content) -->
+        <div class="xl:w-[50%] lg:w-[50%] xl:p-8 flex flex-col justify-center  md:space-y-7 xs:space-y-3  xl:ml-[5%] p-8  3xl:text-[2rem]">
+          <h2 class="text-purple-600 font-bold lg:text-[2rem] 3x:font-extrabold 3xl:text-[3rem]">2 — Edit</h2>
+          <h1 class="lg:text-4xl font-extrabold text-gray-800 mt-2">Create sleek slides faster than ever</h1>
+          <div>
+            <ul class="flex flex-col justify-center font-[1rem] space-y-2 text-gray-600">
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Quickly add text, images, and video embeds.</span>
+                </span>
+              </li>
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Build elegant animations in seconds.</span>
+                </span>
+              </li>
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Collaborate with others in real time.</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <a href="#"
+          class="text-[#864BF9] border border-blue-700 font-bold py-3 px-6 rounded-lg w-fit ">
+          Start exploring now
+        </a>
+        </div>
+
+        <!-- Right side (video) -->
+        <div class="xl:w-[50%] lg:w-[60%] sm:w-[100%]  p-7 mr- relative">
+          <video class="w-full h-full object-cover rounded-2xl" autoplay muted loop>
+            <source src="https://d3x4b1wy4qlu9.cloudfront.net/media/homepage-png/start.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- third video -->
+
+    <div class="flex items-center justify-center ">
+
+      <div class="lg:flex lg:flex-row  xl:w-[80%] lg:w-[95%]   rounded-lg overflow-hidden">
+
+        <!-- Video Container -->
+        <div class="xl:w-[50%] lg:w-[50%] md:w-[100%]   p-8 relative">
+          <video class="w-full h-full object-cover rounded-2xl" autoplay muted loop>
+            <source src="https://d3x4b1wy4qlu9.cloudfront.net/media/homepage-png/start.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Content Container -->
+
+        <div class="xl:w-[50%] lg:w-[50%] xl:p-8  flex flex-col justify-center  md:space-y-7 xs:space-y-3   xl:ml-[6%] md:ml-[2%] p-8  3xl:text-[2rem] ">
+          <h2 class="text-purple-600 font-bold lg:text-[2rem] 3x:font-extrabold 3xl:text-[3rem]">3 — Sharing</h2>
+          <h1 class="lg:text-4xl sm:text-[1.5rem]  font-extrabold text-gray-800 mt-2">Generate, discover, or build a template
+          </h1>
+          <div class="">
+            <ul class="flex flex-col justify-center font-[1rem] space-y-2 text-gray-600 ">
+              <li>
+                <span class="flex gap-x-5  items-center "><i class="fa-solid fa-check " style="color: #000000;"></i> <span> Jump-start your deck with AI.</span> </span>
+              </li>
+
+              <li>
+                <span class="flex gap-x-5  items-center"><i class="fa-solid fa-check" style="color: #000000;"></i> <span> Choose from
+                    100+ expert-made templates.</span> </span>
+              </li>
+
+              <li>
+                <span class="flex gap-x-5  items-center"><i class="fa-solid fa-check" style="color: #000000;"></i> <span> Use your
+                    brand colors and custom fonts.</span> </span>
+              </li>
+            </ul>
+          </div>
+          <a href="#"
+            class="text-[#864BF9] border border-blue-700     font-bold py-3 px-6 rounded-lg w-fit ">
+            Start sharing  now
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- fourth video -->
+
+    <div class="flex items-center justify-center ">
+
+      <div class="flex lg:flex-row flex-col-reverse xl:w-[80%] lg:w-[90%]  rounded-lg overflow-hidden">
+        <!-- Left side (text content) -->
+        <div class="xl:w-[50%] lg:w-[50%] xl:p-8 flex flex-col justify-center  md:space-y-7 xs:space-y-3  xl:ml-[5%] p-8  3xl:text-[2rem]">
+          <h2 class="text-purple-600 font-bold lg:text-[2rem] 3x:font-extrabold 3xl:text-[3rem]">4 — Measure</h2>
+          <h1 class="lg:text-4xl font-extrabold text-gray-800 mt-2">Create sleek slides faster than ever</h1>
+          <div>
+            <ul class="flex flex-col justify-center font-[1rem] space-y-2 text-gray-600">
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Quickly add text, images, and video embeds.</span>
+                </span>
+              </li>
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Build elegant animations in seconds.</span>
+                </span>
+              </li>
+              <li>
+                <span class="flex gap-x-5  items-center">
+                  <i class="fa-solid fa-check" style="color: #000000;"></i>
+                  <span> Collaborate with others in real time.</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <a href="#"
+          class="text-[#864BF9] border border-blue-700 font-bold py-3 px-6 rounded-lg w-fit ">
+          Start gaining insights
+        </a>
+        </div>
+
+        <!-- Right side (video) -->
+        <div class="xl:w-[50%] lg:w-[60%] sm:w-[100%]  p-7 mr- relative">
+          <video class="w-full h-full object-cover rounded-2xl" autoplay muted loop>
+            <source src="https://d3x4b1wy4qlu9.cloudfront.net/media/homepage-png/start.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- moving cards for bottoms section  -->
+
+
+
+
+  </section>
+
+
+  <section class="pt-[7%] pb-[5%] w-full overflow-hidden ">
+    <div class="text-center space-y-[2%] w-[90%] mx-auto">
+      <h1 class=" font-extrabold text-[#2B2A35] xl:text-[3rem] sm:text-[1.5rem] xs:text-[1rem] 3xl:text-[5rem] ">Connect your favorite apps and libraries</h1>
+      <p class="sm:text-[1.125rem]  xs:text-[1rem] text-gray-600 3xl:text-[1.8rem]">Quickly add visuals to slides, import your data, and keep your team in sync.</p>
+    </div>
+    <!-- Scrolling logo container -->
+    <div class="overflow-hidden mt-[3rem]  mx-auto border-b-2 border-black-400 shadow-lg rounded-2xl md:w-[80%] xs:w-[90%] pb-[5%]">
+
+      <ul class="flex sm:gap-x-[10%] xs:gap-x-16 animate-marquee  whitespace-nowrap">
+        <li class=" inline-block  items-center text-center ">
+          <img class="max-w-[5rem] border border-black-400 rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/unsplash-2.png"
+            alt="unsplash logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400 rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/giphy.png"
+            alt="giphy logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400 rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/slack.png"
+            alt="slack logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400 rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/notion.png"
+            alt="notion logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem]  border border-black-400 rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/analytics.png"
+            alt="analytics logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400  rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/giphy.png"
+            alt="giphy logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400  rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/notion.png"
+            alt="notion logo">
+        </li>
+        <li class=" inline-block">
+          <img class="max-w-[5rem] border border-black-400  rounded-lg"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto/website/homepage/integrations/notion.png"
+            alt="notion logo">
+        </li>
+      </ul>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- three cards section -->
+
+  <section >
+
+    <div class="space-y-20 w-full overflow-hidden mt-10">
+      <div class="text-center space-y-5">
+        <h1 class="xl:text-[4rem] md:text-[4rem] xs:text-[1.5rem]  font-extrabold tracking-tight  text-[#2B2A35] ">Built with Pitch</h1>
+        <p class="1.125rem xl:w-[100%] sm:w-[70%] w-[90%] p-1 mx-auto text-gray-600 3xl:text-[1.8rem]">Get inspired by outstanding decks that have
+          helped teams
+          close deals, secure funding, and
+          drive decisions.</p>
+
+        <div>
+          <ul class=" flex justify-center ">
+            <li class="gap-x-10">
+              <span class="flex gap-x-2 font-[700] sm:text-[1.125rem] xs:text-[1rem] text-[#8d49f7] 3xl:text-[2rem]"> Expore the tamplate galary<span>
+                  <img class="h-3 mt-2 text-[#8d49f7] 3xl:h-5 3xl:mt-5" src="./img/arrow.svg" alt=""> </span> </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    
+
+    </div>
+  </section>
+  <section>
+      <div class="flex overflow-x-hidden mt-[10%] ">
+        <div class="relative 3xl:right-[1%] xl:right-[8%] lg:right-[45%] sm:right-[65%] sm:block xs:hidden" >
+ 
+          <img class="rounded-xl md:max-w-[35rem]  3xl:md:max-w-[40rem] " src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1200/website/homepage/presentations/here/preview.png">
+          <div class="relative">
+            <div class="absolute xl:block md:hidden xs:hidden  3xl:left-[14%] xl:left-[44%] bottom-32"> <button><img class="bg-slate-50 rounded-full"
+                  src="./img/right_button.svg"></button></div>
+
+
+          </div>
+
+        </div>
+        <!-- with two images  -->
+        <div class="relative 3xl:right-0 xl:right-10 lg:right-[25%] sm:right-[65%] ">
+          <img class="rounded-xl md:max-w-[35rem]  3xl:md:max-w-[40rem]"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1200/website/homepage/presentations/maze/preview.png">
+
+          <div class="flex items-center sm:space-x-5 mt-[1rem] ">
+            <div class="">
+              <img class="rounded-full sm:w-[100%] xs:w-[50%] sm:ml-0 xs:ml-[1rem]"
+                src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_72/website/homepage/presentations/maze/profile.png">
+            </div>
+            <div class="xs:w-[100%]">
+              <h1 class="sm:font-bold  xs:font-semibold ">The rapid testing framework</h1>
+              <p class="font-light sm:text-normal xs:text-[0.9rem]">Maze October 4,2021</p>
+            </div>
+          </div> 
+
+        </div>
+
+        <div class="relative 3xl:block right-[-3%]  xs:hidden" >
+ 
+          <img class="rounded-xl md:max-w-[35rem] 3xl:md:max-w-[40rem]" src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1200/website/homepage/presentations/here/preview.png">
+          <div class="flex items-center sm:space-x-5 mt-[1rem] ">
+            <div class="">
+              <img class="rounded-full sm:w-[100%] xs:w-[50%] sm:ml-0 xs:ml-[1rem]"
+                src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_72/website/homepage/presentations/maze/profile.png">
+            </div>
+            <div class="xs:w-[100%]">
+              <h1 class="sm:font-bold  xs:font-semibold ">The rapid testing framework</h1>
+              <p class="font-light sm:text-normal xs:text-[0.9rem]">Maze October 4,2021</p>
+            </div>
+          </div> 
+
+        </div>
+
+        <div class="relative 3xl:right-[-5%] xl:right-0 lg:right-[20%] sm:right-[57%]">
+          <img class="xl:rounded-xl md:max-w-[35rem] 3xl:md:max-w-[40rem]  sm:block xs:hidden" src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1200/website/homepage/presentations/frontify/preview.png">
+          <div class="relative">
+            <div class="absolute  xl:block md:hidden xs:hidden bottom-32 3xl:left-[60%] xl:left-40 "> <button><img class="bg-slate-50 rounded-full"
+                  src="./img/right_arrow_img.svg"></button>
+                </div>
+
+
+          </div>
+        </div>
+
+        <!-- <div class=" xl:hidden relative md:left-[5rem] xs:left-[-34rem] ">
+          <img class=" rounded-xl max-w-[40rem]"
+            src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1200/website/homepage/presentations/frontify/preview.png">
+          <div class="relative">
+            <div class="absolute   bottom-36 "> <button><img class="bg-slate-50 rounded-full"
+                  src="./img/right_arrow_img.svg"></button>
+                </div>
+
+
+          </div>
+        </div> -->
+      </div>
+  </section>
+
+
+
+  <section class=" 3xl:w-[70%] xll:ml-[30%]  sm:mr-[0rem] sm-ml[0rem] bg-[#F9F9FA] 3xl:ml-[14%] ">
+    
+    <div class="relative mt-[10%] text-center ">
+    
+      <div class="absolute ">
+        <img class="xl:w-[20rem]  sm:w-[10rem] w-[3.5rem]"
+          src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_200/website/homepage/quotes/italic/left.png"
+          alt="image not found">
+
+      </div>
+
+      <!-- text -->
+      <div class="content sm:w-[60%]  mx-auto lg:pt-[8rem] sm:pt-[5rem]  ">
+        <div class=" xl:w-[60%]  md:w-[90%] w-[80%] mx-auto">
+          <h1 class="  sm:text-[3rem] xs:text-[1rem] font-extrabold leading-[3rem]  text-[#2B2A35] 3xl:text-[3rem] sm:pt-0 xs:pt-5 ">A tool for
+            the whole team</h1>
+          <p class="mt-[8%]  leading-10 text-[#2B2A35] text-[1.125rem] sm:w-[100%]  3xl:text-[1.8rem]">Need to create a
+            pixel-perfect layout, craft a
+            compelling story, or land your next big deal? Pitch is
+            packed with features for anyone working with presentations.</p>
+        </div>
+
+      </div>
+      <div class=" xl:w-[50%] sm:w-[80%] w-[100%] mx-auto sm:mt-[2rem]  mt-10 sm:mb-0 xs:mb-10">
+        <ul class="flex  md:justify-between  xs:justify-center  text-[#6F7387] font-semibold font-custom  3xl:text-[1.5rem] 3xl:mt-[2%]">
+          <li class="text-blue-800"><a href="#">I RUN A
+              BUSINESS</a></li>
+          <li class="sm:block xs:hidden " ><a href="#" >I'M DESIGNER</a></li>
+          <li class="sm:block xs:hidden"  ><a href="#" >I WORK IN THE SALE</a></li>
+          <li class="sm:block xs:hidden" ><a href="#" >I'M A MARKTER</a></li>
+
+        </ul>
+      </div>
+      <hr class="pb-20 botder-2 border-gray-300 xl:w-[55%]  mx-auto mt-9 relative xl:block xs:hidden ">
+      <div class=" ">
+      <hr class="absolute border border-blue-700  xl:w-[20%] xl:left-[20%]  xl:bottom-[14%] sm:left-[8%] sm:w-[20%] xs:w-[58%] xs:bottom-[-18px]  xs:left-[20%] ">
+      </div>
+      <!-- right watch image  -->
+      <div class="absolute right-0 top-0">
+        <img class="xl:w-[20rem]  sm:w-[10rem] w-[3.5rem]"
+          src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_200/website/homepage/quotes/italic/right.png">
+
+      </div>
+    </div>
+
+    <!-- about the cao card  -->
+
+    <div class="flex justify-center items-center xl:mt-[5rem]">
+      <div class="relative md:flex sm:flex-col-reverse  xl:flex-row flex xs:flex-col-reverse xl:w-[80%] md:w-[90%] xl:mt-0 md:mt-20  border-2 border-[#8D49F7] bg-white  rounded-[3rem] md:ml-0 md:mr-0 xs:ml-2 xs:mr-2">
+
+
+        <div class="relative  xl:bottom-[4rem]  sm:bottom-[-5rem] bg-custom-gradient text-white p-5 rounded-lg shadow-lg xl:w-[50%] xl:ml-[4rem]  md:w-[80%] xs:w-[90%] xs:bottom-[-4rem] xs:mx-auto sm:mx-auto ">
+          <!-- Profile Image -->
+          <div class="absolute top-[-20px] left-1/2 transform -translate-x-1/2">
+            <div class="w-[150px] h-[150px] rounded-full border-4 border-yellow-500 overflow-hidden shadow-[0_0_0_15px_rgba(255,193,7,0.5)]">
+              <img class="h-full w-full object-cover"
+                src="https://res.cloudinary.com/pitch-software/image/upload/v1707901639/website-images/customer%20quotes/Aravind_Srinivas.jpg"
+                alt="Profile Image">
+            </div>
+          </div>
+          
+          <!-- Testimonial Text -->
+          <div class="xl:pt-[2rem] md:mt-[8rem] xs:mt-[8rem] text-center">
+            <p class="xl:text-[1.5rem]  md:text-[1.7rem] font-bold leading-relaxed  xl:w-[100%]  3xl:text-[2rem]">
+              “I love Pitch and have used it for Perplexity’s fund raises, board meetings, and internal company
+              presentations. If you’re still on Google Slides, you should migrate, and you won’t regret it!”
+            </p>
+           
+          </div>
+          <div class="mt-20 text-center">
+          <span class="font-semibold text-[1.3rem] 3xl:text-[2rem]">Aravind Srinivas,</span>
+          <span class="text-[1.3rem] 3xl:text-[2rem]">CEO</span>
+          <p><img class="w-[18%] mx-auto pt-4 pb-4 3xl:w-[20%]" src="./img/perplexity-logos-idbkK4UG9h_h55iob.svg"></p>
+          </div>
+        </div>
+
+        <!-- Right Side: Features List -->
+        <div  class="flex flex-col xl:w-[50%] my-auto  xl:pl-[3rem] sm:mx-auto xs:mx-auto   ">
+          <ul class=" text-gray-800 ml-5 xl:space-y-[5%] md:space-y-[5%] xs:space-y-[7%] xl:mt-0 md:mt-5 xs:mt-5 3xl:text-[2rem]">
+            <li>
+              <span class="flex gap-x-5 items-center ">
+                <i class="fa-solid fa-check text-black"></i>
+                <span class=" xl:text-[1.6rem]  lg:text-[1.5rem] font-bold">Customizable speaker view</span>
+              </span>
+            </li>
+            <li>
+              <span class="flex gap-x-5 items-center">
+                <i class="fa-solid fa-check text-black"></i>
+                <span class="xl:text-[1.6rem] lg:text-[1.5rem]  font-bold">Video recording on slides</span>
+              </span>
+            </li>
+            <li>
+              <span class="flex gap-x-5 items-center">
+                <i class="fa-solid fa-check text-black"></i>
+                <span class="xl:text-[1.6rem] lg:text-[1.5rem] font-bold">Public link sharing</span>
+              </span>
+            </li>
+            <li>
+              <span class="flex gap-x-5 items-center">
+                <i class="fa-solid fa-check text-black"></i>
+                <span class="xl:text-[1.6rem] lg:text-[1.5rem]  font-bold">Analytics links</span>
+              </span>
+            </li>
+            <li>
+              <span class="flex gap-x-5 items-center">
+                <i class="fa-solid fa-check text-black"></i>
+                <span class="xl:text-[1.6rem] lg:text-[1.5rem]  font-bold">Engagement insights</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    
+  </section>
+
+  <div class="text-center py-16">
+    <!-- Sign-up Button -->
+    <h2 class="sm:text-xl  mt-5  text-gray-700 mb-6  xl:w-[40%] md:w-[50%] xs:w-[90%] pt-[1%] mx-auto sm:leading-10 leading-8 3xl:text-[2rem]">From small team to
+      enterprise, Pitch has all
+      the tools you need to build better presentations together.</h2>
+    <button class="bg-[#8D49F7] text-white sm:px-[5rem] sm:py-4 xs:px-[4rem] xs:py-3 rounded-lg hover:bg-purple-700 font-bold 3xl:text-[2rem]">Sign up</button>
+  </div>
+  <!-- "New from Pitch" Section -->
+  <section class="xl:w-[80%] md:w-[90%] 3xl:w-[70%] xsss:w-[85%] xs:w-[100%] mx-auto  px-4 sm:px-6 lg:px-8  ">
+    <div class="mt-[0%]">
+    <h2 class="md:text-[3rem] xs:text-[1.5rem] font-extrabold tracking-tight mb-8 text-center  text-[#2B2A35] ">New from Pitch</h2>
+   </div>
+    <!-- Responsive Flexbox Card Container -->
+    <div class=" lg:grid lg:grid-cols-3  sm:grid sm:grid-cols-1 gap-5 md:space-y-0 xs:space-y-10 md:space-y-0 cursor-pointer pb-[11%]">
+
+      <!-- Card 1 -->
+      <div class="bg-white shadow-lg 3xl:w-[90%]  lg:w-[100%]  rounded-[2rem] overflow-hidden  lg:flex-col  sm:flex sm:flex-row-reverse border border-gray-200 group">
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] ">
+          <img src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1000/Cover_-_September2024.png" alt="Presentation Resources" class="w-full h-48 object-cover p-5 rounded-3xl"></div>
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] p-5 ">
+          <h3 class="text-indigo-600 xl:text-sm font-semibold 3xl:text-[2rem] md:text-[15px]">RELESE ROUNDUP</h3>
+          <p class="xl:text-[1.75rem] xl:leading-7 md:leading-0 font-bold text-gray-700 mt-5 hover:text-blue-800 3xl:text-[2rem] 3xl:leading-10   xl:mt-5">Sync text across slides and organize assets</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow-lg 3xl:w-[90%]  lg:w-[100%]  rounded-[2rem] overflow-hidden  lg:flex-col  sm:flex sm:flex-row-reverse border border-gray-200 group">
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] ">
+          <img src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1000/Cover_-_September2024.png" alt="Presentation Resources" class="w-full h-48 object-cover p-5 rounded-3xl"></div>
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] p-5 ">
+          <h3 class="text-indigo-600 xl:text-sm font-semibold 3xl:text-[2rem] md:text-[15px]">PRESENTATION RESOURCES</h3>
+          <p class="xl:text-[1.75rem] xl:leading-7 md:leading-0 font-bold text-gray-700 mt-5 hover:text-blue-800 3xl:text-[2rem] 3xl:leading-10   xl:mt-5">Win deals with interactive sales decks</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow-lg 3xl:w-[90%]  lg:w-[100%]  rounded-[2rem] overflow-hidden  lg:flex-col  sm:flex sm:flex-row-reverse border border-gray-200 group">
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] ">
+          <img src="https://res.cloudinary.com/pitch-software/image/upload/f_auto,w_1000/Cover_-_September2024.png" alt="Presentation Resources" class="w-full h-48 object-cover p-5 rounded-3xl"></div>
+        <div class="sm:w-[50%] lg:w-[100%] w-[100%] p-5 ">
+          <h3 class="text-indigo-600 xl:text-sm font-semibold 3xl:text-[2rem]">PRODUCT UPDATE</h3>
+          <p class="xl:text-[1.75rem] leading-7 font-bold text-gray-700 mt-5 hover:text-blue-800 3xl:text-[2rem] 3xl:leading-10   xl:mt-5  md:leading-0">Introduction Pitch 2.0</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="bg-cover sm:space-y-10  xs:space-y-5 bg-center  text-center flex flex-col items-center w-full overflow-hidden" style="background-image: url('./img/background (1).jpg');">
+
+    <!-- Heading -->
+     
+
+    <h1
+      class="text-white sm:top-[15rem]  lg:text-[3rem] sm:text-[3rem] font-extrabold lg:pt-20 sm:pt-10 pt-[4rem] text-[2rem]">
+      Get started with Pitch
+    </h1>
+
+    <!-- Button -->
+    <button
+      class="sm:px-8 xl:w-[14%] lg:w-[20%] sm:py-3 xs:px-8 xs:py-2 text-purple-800  rounded-lg font-bold sm:text-lg xs:text-[1rem]" style="background: linear-gradient(90deg, #ffd02c, #ff9e2c);">
+      Sign up for free
+    </button>
+
+    <!-- Features List -->
+     <div class="">
+    <ul class="flex lg:flex-row  md:flex-col xs:flex-col gap-3 md:gap-6 text-white font-bold sm:text-lg sm:pb-0 xs:pb-3">
+    <li><span class="flex gap-x-5 items-center">
+        <i class="fa-solid fa-check text-white"></i>
+        <span > Unlimited presentation</span>
+      </span>
+      </li>
+      <li>  <span class="flex gap-x-5 items-center">
+        <i class="fa-solid fa-check text-white"></i>
+        <span > Unlimited sharing link</span>
+      </span>
+      </li>
+      <li>  <span class="flex gap-x-5 items-center">
+        <i class="fa-solid fa-check text-white"></i>
+        <span > Custom tamplate</span>
+      </span>
+      </li>
+    </ul>
+    </div>
+
+    <!-- Mockup Section (Phone and Computer Mockup) -->
+    <div class="mt-[10%]  xs:w-[80%] mx-auto ">
+      <img class=" " src="./img/footer_phone.png" alt="Computer Mockup">
+
+
+    </div>
+
+  </section>
+
+  <!-- Footer Section -->
+
+  <section class="w-full overflow-hidden flex xs:flex-col xl:flex-row ">
+
+    <footer class="w-full xll:pl-[3%] pt-[2%]">
+      <div class=" grid  sm:gap-x-20 sm:grid-cols-2 lg:grid-cols-4 md:pl-[6rem] xs:pl-[2rem]  pt-[2rem] w-[100%]  ">
+
+        <!-- Product Column -->
+        <div class="3xl:text-[1.8rem] ">
+          <h3 class="font-semibold mt-4 mb-4">Product</h3>
+          <ul class="leading-10 3xl:leading-[4rem]">
+            <li><a href="#" class="text-gray-600 hover:text-black">Product overview</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">What's New</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pricing</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch Decks</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Sales Decks</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Team Meetings</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Board Decks</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Presentation Maker</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">AI Presentation Maker</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Video Presentation Maker</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch vs PowerPoint</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch vs Keynote</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch vs Google Slides</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch to Win 2023</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Academy</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Help Center</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Download</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Status</a></li>
+          </ul>
+        </div>
+
+        <!-- Templates Column -->
+        <div  class="3xl:text-[1.8rem] ">
+          <h3 class="font-semibold  mt-4 mb-4">Templates</h3>
+          <ul class="leading-10 3xl:leading-[4rem]">
+            <li><a href="#" class="text-gray-600 hover:text-black">Pitch deck</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Marketing</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Startups</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Design</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Sales</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Business</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">UX</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Proposal</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Report</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Simple</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Creative</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Professional</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Modern</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Project plan</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Project proposal</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Portfolio</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Brand</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Product</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal Column -->
+        <div  class="3xl:text-[1.8rem] ">
+          <h3 class="font-semibold  mt-4 mb-4">Legal</h3>
+          <ul class="leading-10 3xl:leading-[4rem]">
+            <li><a href="#" class="text-gray-600 hover:text-black">Terms of Use</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Privacy Policy</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Legal Notice</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">DPA</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">DMCA Policy</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">ERDF Support</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">GDPR</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Security Policy</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Cookie Settings</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Column -->
+        <div class="3xl:text-[1.8rem] ">
+          <h3 class="font-semibold  mt-4 mb-4">Company</h3>
+          <ul class="leading-10 3xl:leading-[4rem]">
+            <li><a href="#" class="text-gray-600 hover:text-black">About</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Press Room</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Blog</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-black">Community</a></li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </footer>
+  </section>
+
+<div class="">
+  <hr class=" border border-gray-200 mt-[5rem]  mx-auto  xl:w-[90%] md:w-[80%] 3xl:w-[95%] w-[80%]">
+
+  <div  class="flex mx-auto xl:flex xl:flex-row sm:flex-col xs:flex-col  justify-between  w-[100%] mt-[2rem] pb-[4rem] xl:space-y-0 xs:w-[80%] xs:space-y-6 sm:space-y-10 3xl:w-[95%] xl:w-[90%]">
+
+    <!-- Left Section: Logo and Copyright -->
+    <div class="flex sm:flex sm:flex-row xs:flex xs:flex-col xl:space-x-6  xs:space-x-0  sm:space-x-8 xs:space-y-6 ">
+      <!-- Logo -->
+      <div class="xl:flex items-center xl:space-x-10  ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 677 185" class="h-7 3xl:h-10">
+          <path fill="#2B2A35" fill-rule="evenodd"
+            d="M163.585 78.34c-1.833 24.729-21.492 47.093-46.753 48.113V107.74c0-17.132-12.21-31.942-29.031-35.21L25.158 60.352v-42.26C25.158 6.724 35.534-1.834 46.694.34l64.432 12.52c35.653 7.76 54.721 35.09 52.474 65.48zM47.374 137.42l-37.071-7.199C4.967 129.188 0 133.267 0 138.707v25.66a13.377 13.377 0 0 0 10.82 13.126l37.071 7.199c5.336 1.034 10.303-3.06 10.303-8.485v-25.66a13.378 13.378 0 0 0-10.82-13.126zM84.83 86.425 28.292 75.443c-8.145-1.582-15.698 4.656-15.698 12.948v27.863c.133.03.28.044.413.074l37.072 7.199c12.904 2.512 22.276 13.864 22.276 27.02v5.824l14.353 2.793c8.144 1.582 15.697-4.656 15.697-12.948v-38.461c0-10.391-7.375-19.334-17.575-21.315z"
+            clip-rule="evenodd"></path>
+          <path id="text" fill="#2B2A35"
+            class="text-black transition-transform duration-1000 group-hover:translate-x-[-100%]"
+            d="M238.438 24.729v147.546h24.595v-28.69h22.543c32.785 0 59.42-26.636 59.42-59.42 0-32.786-26.635-59.423-59.42-59.423v-.013zm331.99 0v147.546h24.595v-49.177c0-15.846 12.846-28.692 28.692-28.692 15.845 0 28.69 12.846 28.69 28.692v49.177H677V118.31c0-26.784-21.727-48.498-48.496-48.498h-.016c-12.978 0-24.73 5.055-33.465 13.392V24.73Zm-200.82.013c-7.544 0-13.659 6.115-13.659 13.658 0 7.543 6.115 13.659 13.658 13.659 7.543 0 13.659-6.116 13.659-13.659 0-7.543-6.116-13.658-13.659-13.658zm28.69 0v114.764c0 20.354 16.526 36.879 36.88 36.879 9.282 0 17.766-3.416 24.314-9.15l-11.885-20.221c-2.187 2.868-5.734 4.64-9.695 4.64v-.013h-2.734c-.813 0-1.64-.133-2.453-.266-5.602-1.094-9.83-6.15-9.83-12.018V98.516h24.595V73.92h-24.595V24.742ZM263.034 49.31h22.543c19.26 0 34.838 15.58 34.838 34.84 0 19.26-15.578 34.84-34.838 34.84h-22.543Zm250.012 20.517c-29.37 0-53.285 23.902-53.285 53.287 0 29.385 23.9 53.285 53.285 53.285 18.847 0 35.387-9.828 44.951-24.595l-21.447-12.297c-5.188 7.376-13.792 12.297-23.504 12.297-15.845 0-28.69-12.845-28.69-28.69 0-15.846 12.845-28.691 28.69-28.691v-.016c9.978 0 18.714 5.057 23.77 12.713l21.181-12.564c-9.43-14.885-25.957-24.729-44.951-24.729ZM357.309 73.92v98.37h24.597V73.92Z">
+          </path>
+        </svg>
+        <div class="">
+          <p class="text-gray-600 xl:mt-0  xs:mt-5 leading-10 3xl:text-[1.8rem]">&copy; Copyright 2024 Pitch Software GmbH. All rights reserved.</p>
+        </div>
+      </div>
+
+    
+
+    </div>
+
+    <!-- Right Section: Social Media Icons -->
+    <div class="flex space-x-4 items-center">
+      <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #424648;"></i></a>
+      <a href="#"> <i class="fa-brands fa-facebook fa-xl" style="color: #424648;"></i> </a>
+      <a href="#"> <i class="fa-brands fa-instagram fa-xl" style="color: #424648;"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin fa-xl" style="color: #424648;"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color: #424648;"></i></a>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>

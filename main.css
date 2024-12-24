@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+@layer utilities {
+    .animate-marquee {
+      animation: marquee 40s linear infinite;
+    }
+}
+@layer components {
+  .gradient-border {
+      border-bottom: 20px solid transparent; /* Set the top border width and make it transparent */
+      border-image: linear-gradient(to right, #5215ef, #ab6ef9) 1; /* Your gradient */
+     
+  }
+}
+
+
+
+
